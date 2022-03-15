@@ -20,7 +20,7 @@ function MovieInfo() {
             console.log(res.data)
             setDetails(res.data);
         })
-    }, [])
+    }, [movie_id])
 
 
 
